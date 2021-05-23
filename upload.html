@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Fill the Data</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="resume.img.svg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+              <label for="email_address"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+              <label for="Cell No."><b>Phone No.</b></label>
+              <input type="text" placeholder="Enter Cell No." name="Cell No." required>
+              <center>
+                <form method="post" enctype="multipart/form-data">
+                  
+                  <input type="file" name="document">
+                  </form>
+             </center>  
+              <br> <br> <br>          
+              <input type="submit" value="Submit">
+              
+            </form>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
